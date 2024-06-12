@@ -17,3 +17,7 @@ tsc --init --sourceMap --rootDir src --outDir dist
 Tsc:watch - tsconfig.json
 
 >Tasks Run Build Task
+
+
+
+npm start
