@@ -10,6 +10,9 @@ function add(n1: number, n2: number): number {
 let combineValues: (a: number, b: number) => number;
 combineValues = add;
 
+let combineValues2: Function;
+combineValues2 = add;
+
 //function type and callback
 
 function addAndHandle(n1: number, n2: number, cb: (num: number) => void) {
